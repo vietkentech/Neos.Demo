@@ -1,0 +1,13 @@
+prototype(Neos.Demo:Presentation.TaText) < prototype(Neos.Fusion:Component) {
+
+    // This is used for the living styleguide (Monocle)
+    // Read more about this in the README.md
+    @styleguide {
+        container = ${'<div class="theanh">' + value + '</div>'}
+        props.content = '<p>Bla blooooo</p>'
+    }
+
+    @if.hasContent = ${this.content}
+
+    renderer = ${props.content}
+}

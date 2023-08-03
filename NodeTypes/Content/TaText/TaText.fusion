@@ -1,0 +1,10 @@
+##
+# "TaText" element
+#
+prototype(Neos.Demo:Content.TaText) < prototype(Neos.Neos:ContentComponent) {
+    content = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = afx`<Neos.Demo:Presentation.TaText {...props} />`
+}
