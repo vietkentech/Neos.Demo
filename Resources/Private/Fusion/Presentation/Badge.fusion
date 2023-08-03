@@ -13,6 +13,7 @@ prototype(Neos.Demo:Presentation.Badge) < prototype(Neos.Fusion:Component) {
             <neos-badge>
                   <neos-icon name="frown"></neos-icon>
                   {props.text}
+                  + TAN
             </neos-badge>
                   `
 }

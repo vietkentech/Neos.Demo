@@ -8,7 +8,7 @@
     'Neos.Demo:Constraint.Content.Footer': true
   ui:
     label: Badge
-    icon: patch-check-fill
+    icon: android
     position: 70
   properties:
     text:
