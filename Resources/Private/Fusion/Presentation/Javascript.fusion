@@ -4,5 +4,6 @@
 prototype(Neos.Demo:Presentation.Javascript) < prototype(Neos.Fusion:Component) {
     renderer = afx`
         <script defer src={StaticResource.uri('Neos.Demo', 'Public/Scripts/Main.js')}></script>
+        <script defer src={StaticResource.uri('Neos.Demo', 'Public/Scripts/neos.js')}></script>
     `
 }

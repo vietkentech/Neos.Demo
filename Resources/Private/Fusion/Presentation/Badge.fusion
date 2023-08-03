@@ -1,0 +1,18 @@
+prototype(Neos.Demo:Presentation.Badge) < prototype(Neos.Fusion:Component) {
+
+    // This is used for the living styleguide (Monocle)
+    // Read more about this in the README.md
+    @styleguide {
+        container = ${'<div class="prose">' + value + '</div>'}
+        props.content = '<p>Badge with icons</p>'
+    }
+
+    @if.hasContent = ${this.content}
+
+    renderer = afx`
+            <neos-badge>
+                  <neos-icon name="frown"></neos-icon>
+                  {props.text}
+            </neos-badge>
+                  `
+}

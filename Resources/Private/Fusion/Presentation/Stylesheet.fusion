@@ -4,5 +4,6 @@
 prototype(Neos.Demo:Presentation.Stylesheet) < prototype(Neos.Fusion:Component) {
     renderer = afx`
         <link rel="stylesheet" href={StaticResource.uri('Neos.Demo', 'Public/Styles/Main.css')} />
+        <link rel="stylesheet" href={StaticResource.uri('Neos.Demo', 'Public/Styles/Neos.css')} />
     `
 }

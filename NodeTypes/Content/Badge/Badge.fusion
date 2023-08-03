@@ -1,0 +1,10 @@
+##
+# "Badge" element
+#
+prototype(Neos.Demo:Content.Badge) < prototype(Neos.Neos:ContentComponent) {
+    content = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = afx`<Neos.Demo:Presentation.Badge {...props} />`
+}

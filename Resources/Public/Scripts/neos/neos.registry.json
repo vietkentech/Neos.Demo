@@ -1,0 +1,88 @@
+{
+  "namespace": "Neos",
+  "fsNamespace": "neos",
+  "loader": "../neos.js",
+  "global": "neos.global.js",
+  "core": "neos.oadxuocz.js",
+  "corePolyfilled": "neos.ldyq3yiw.js",
+  "components": {
+    "neos-badge": {
+      "bundleIds": {
+        "$": "dgfopzes"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-button": {
+      "bundleIds": {
+        "$": "vckyvdy4"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-dropdown": {
+      "bundleIds": {
+        "$": "blv2bq0d"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-dropdown-header": {
+      "bundleIds": {
+        "$": "blv2bq0d"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-dropdown-item": {
+      "bundleIds": {
+        "$": "vrnj1x3c"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-form-input": {
+      "bundleIds": {
+        "$": "dal5nwvo"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-form-input-wrapper": {
+      "bundleIds": {
+        "$": "6gvlnuth"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-icon": {
+      "bundleIds": {
+        "$": "vckyvdy4"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-inspector-group": {
+      "bundleIds": {
+        "$": "dojb2tby"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-inspector-group-header": {
+      "bundleIds": {
+        "$": "dojb2tby"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-label": {
+      "bundleIds": {
+        "$": "ufetyyuz"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-toolbar": {
+      "bundleIds": {
+        "$": "jqjmvbpn"
+      },
+      "encapsulation": "shadow"
+    },
+    "neos-toolbar-separator": {
+      "bundleIds": {
+        "$": "jtzlszoi"
+      },
+      "encapsulation": "shadow"
+    }
+  }
+}
