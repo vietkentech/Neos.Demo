@@ -10,7 +10,18 @@
     label: Badge
     icon: android
     position: 70
+    inspector:
+      groups:
+        settings:
+          label: 'Settings'
   properties:
     text:
       options:
         preset: 'neosdemo.text.autoparagraph'
+    link:
+      type: string
+      ui:
+        label: Link
+        inspector:
+          groups: settings
+          editor: Neos.Neos/Inspector/Editors/LinkEditor
