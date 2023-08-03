@@ -7,8 +7,6 @@ prototype(Neos.Demo:Presentation.Badge) < prototype(Neos.Fusion:Component) {
         props.content = '<p>Badge with icons</p>'
     }
 
-    @if.hasContent = ${this.content}
-
     renderer = afx`
             <neos-badge>
                   <neos-icon name="frown"></neos-icon>
