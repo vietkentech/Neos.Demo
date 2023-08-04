@@ -1,0 +1,22 @@
+'Neos.Demo:Content.MyComponent':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Demo:Constraint.Content.Carousel': true
+    'Neos.Demo:Constraint.Content.Column': true
+    'Neos.Demo:Constraint.Content.Main': true
+    'Neos.Demo:Constraint.Content.Teaser': true
+    'Neos.Demo:Constraint.Content.Footer': true
+  ui:
+    label: MyComponent
+    icon: alexa
+    position: 80
+  properties:
+    last:
+      type: string
+      defaultValue: ''
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: 'Enter last here...'
+            autoparagraph: false
