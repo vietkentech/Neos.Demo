@@ -8,7 +8,7 @@
     'Neos.Demo:Constraint.Content.Footer': true
   ui:
     label: MyComponent
-    icon: alexa
+    icon: apple-whole
     position: 80
   properties:
     last:

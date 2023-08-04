@@ -8,6 +8,6 @@ prototype(Neos.Demo:Content.MyComponent) < prototype(Neos.Neos:ContentComponent)
 
     renderer = afx`<Neos.Demo:Presentation.MyComponent
                         {...props}
-                        fist="TheAnh"
+                        first="TheAnh"
                     />`
 }
