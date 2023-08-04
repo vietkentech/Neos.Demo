@@ -4,8 +4,12 @@ prototype(Neos.Demo:Presentation.MyComponent) < prototype(Neos.Fusion:Component)
     // Read more about this in the README.md
     @styleguide {
         container = ${'<div class="prose">' + value + '</div>'}
-        props.content = '<p>My component</p>'
+        title = 'Some blog article'
+        abstract = 'Some quick example text for an abstract.'
     }
+
+    title = null
+    abstract = null
 
     renderer = afx`
                 <div>
