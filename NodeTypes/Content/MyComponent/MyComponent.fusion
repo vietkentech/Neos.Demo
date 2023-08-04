@@ -2,12 +2,16 @@
 # "MyComponent" element
 #
 prototype(Neos.Demo:Content.MyComponent) < prototype(Neos.Neos:ContentComponent) {
-    content = Neos.Neos:Editable {
-        property = 'last'
+    title = Neos.Neos:Editable {
+        property = 'title'
+        block = false
+    }
+    abstract = Neos.Neos:Editable {
+        property = 'abstract'
+        block = false
     }
 
     renderer = afx`<Neos.Demo:Presentation.MyComponent
                         {...props}
-                        first="TheAnh"
                     />`
 }

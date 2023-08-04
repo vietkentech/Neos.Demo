@@ -11,12 +11,10 @@
     icon: apple-whole
     position: 80
   properties:
-    last:
-      type: string
-      defaultValue: ''
+    title:
       ui:
-        inlineEditable: true
-        inline:
-          editorOptions:
-            placeholder: 'Enter last here...'
-            autoparagraph: false
+        inspector:
+          group: ~
+    abstract:
+      options:
+        preset: 'neosdemo.text.lead'

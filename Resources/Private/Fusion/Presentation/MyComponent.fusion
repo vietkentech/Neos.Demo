@@ -9,7 +9,7 @@ prototype(Neos.Demo:Presentation.MyComponent) < prototype(Neos.Fusion:Component)
 
     renderer = afx`
                 <div>
-                <neos-form-input label="{props.first}" value="{props.last}">
+                <neos-form-input label="{props.title}" value="{props.abstract}">
                     <neos-badge slot="metadata">required</neos-badge>
                 </neos-form-input>
                 <p>Test My component</p>
